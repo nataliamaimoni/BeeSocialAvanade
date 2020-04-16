@@ -1,0 +1,12 @@
+<header class="header">
+  <nav class="header-nav">
+    <section class="header-nav-left">
+      <a routerLink="/timeline">
+        <h1>Bee Social by Avanade</h1>
+      </a>
+    </section>
+    <section class="header-nav-right" *ngIf="router.url != '/' && router.url != '/cadastrar' ">
+      <app-nav></app-nav>
+    </section>
+  </nav>
+</header>

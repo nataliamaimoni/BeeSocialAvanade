@@ -1,0 +1,16 @@
+<section class="timeline-post">
+  <div class="timeline-post-card">
+    <h6>Compartilhe no seu perfil </h6>
+    <textarea id="input-post" type="text" class="w3-border w3-padding input-page" placeholder="Status" (input)="updateResponse($event)"></textarea>
+
+    <input style="display: none" type="file" (change)="onFileChanged($event)" #fileInput>
+    <button (click)="fileInput.click()" class="btn-image">
+      <i class="fa fa-image"></i>
+      <span>  Inserir imagem</span>
+    </button>
+    <button id="create-post" (click)="insertPost()" type="button" class="btn-post">
+      <i class="fa fa-pencil"></i>
+      <span>  Post</span>
+    </button>
+  </div>
+</section>

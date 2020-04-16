@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+*{font-family: "Open Sans", sans-serif}
+
+.profile-picture{
+    height: 106px;
+    width:106px;
+}
+
+.timeline-photo{
+    width: 60px;
+}
+
+.post-image{
+    width: 100%;
+}
+
+.input-page{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+body{
+    overflow-x: hidden;
+}

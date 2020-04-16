@@ -1,0 +1,22 @@
+{
+  "login": [
+    {
+      "id": 13,
+      "email": "testeMaster2@teste.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "firstAccess": false,
+      "activeUser": true,
+      "admin": false
+    },
+    {
+      "id": 14,
+      "email": "funcionario@avanade.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "firstAccess": false,
+      "activeUser": true,
+      "admin": false
+    }
+  ]
+}

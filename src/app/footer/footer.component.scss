@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+    h2{
+        width: 180px;
+        height: 4vh;
+        background: url(../../assets/images/Avanade.png ) no-repeat center;
+        background-size: contain;
+        margin: 0;
+    }
+}
